@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* 
+
+LANDING PAGE
+
+*/
+
+#landing {
+    background-color: rgb(187,	91,	11);
+}
+
+nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 8px 56px 0;
+}
+
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo__title {
+    font-size: 24px;
+    color: #ee8338;
+    font-weight: bolder;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link {
+    list-style-type: none;
+    padding: 0px 24px;
+    font-size: 16px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 0px 56px;
+    max-height: 500px;
+}
+
+.home__description {
+    width: 50%;
+}
+
+.home__description--title  {
+    font-size: 64px;
+    margin-bottom: 8px;
+    color: #ee8338;
+}
+
+.home__description--para {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #37354C;
+    letter-spacing: .03cm;
+}
+
+.home__img--wrapper {
+    width: 50%;
+}
+
+.home__img {
+    width: 100%;
+}
+
+.home__description {
+    flex-direction: column;
+    margin: 0px 0px 0px 16px;
+}
