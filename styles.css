@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 
@@ -64,17 +64,27 @@ nav {
     width: 50%;
 }
 
-.home__description--title  {
-    font-size: 64px;
+.home__description--title-wide  {
+    font-size: 96px;
+    color: #ee8338;
+}
+
+.home__description--title-big  {
+    font-size: 96px;
     margin-bottom: 8px;
     color: #ee8338;
+    letter-spacing: .05cm;
+}
+
+.big {
+    font-size: 56px;
 }
 
 .home__description--para {
     font-size: 16px;
     margin-bottom: 8px;
     color: #37354C;
-    letter-spacing: .03cm;
+    letter-spacing: .01cm;
 }
 
 .home__img--wrapper {
@@ -88,4 +98,16 @@ nav {
 .home__description {
     flex-direction: column;
     margin: 0px 0px 0px 16px;
+}
+
+
+
+.container {
+    width: 1200px;
+    height: 1200px;
+}
+
+
+#features {
+    background-color: rgba(115, 66, 214, 0.1);
 }
